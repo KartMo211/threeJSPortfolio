@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('kartmo211@gmail.com');
+    navigator.clipboard.writeText('ujc16122004@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -23,10 +23,7 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Karthik Mohan</p>
-              <p className="grid-subtext">
-                I have honed my skills in both frontend and backend dev, creating dynamic and responsive websites.
-              </p>
+              <p className="grid-headtext">Hi, I’m Uddanti Joshvin Choudhary</p>
             </div>
           </div>
         </div>
@@ -36,9 +33,9 @@ const About = () => {
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-headtext">About Me</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable applications
+              As a BBA major student, I combine business acumen with technical expertise. My education in business administration gives me unique insights into market needs, project management, and business strategy. This background allows me to approach technical problems with both analytical and business-oriented perspectives, creating solutions that are not only technically sound but also aligned with organizational goals.
               </p>
             </div>
           </div>
@@ -61,7 +58,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Hyderabad, Telangana and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in Hyderabad, Telangana and open to remote worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -72,10 +69,11 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">My Passion for Business</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                I blend business strategy with technical execution. As a BBA student, I approach coding projects with both analytical 
+                and market-oriented perspectives, identifying not just how to build solutions, but why they matter. I&apos;m passionate 
+                about creating technology that drives business value and solves real organizational challenges.
               </p>
             </div>
           </div>
@@ -93,7 +91,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={() => handleCopy()}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">kartmo211@gmail.com</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">ujc16122004@gmail.com</p>
               </div>
             </div>
           </div>

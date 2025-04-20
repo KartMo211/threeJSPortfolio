@@ -11,7 +11,7 @@ const Experience= () => {
   return (
     <section className="c-space my-20" id="work">
       <div className="w-full text-white-600">
-        <p className="head-text">My Work Experience</p>
+        <p className="head-text">Education</p>
 
         <div className="work-container">
           <div className="work-canvas">
@@ -41,9 +41,6 @@ const Experience= () => {
                   onPointerOut={() => setAnimationName('idle')}
                   className="work-content_container group">
                   <div className="flex flex-col h-full justify-start items-center py-2">
-                    <div className="work-content_logo">
-                      <img className="w-full h-full" src={item.icon} alt="" />
-                    </div>
 
                     <div className="work-content_bar" />
                   </div>
