@@ -62,27 +62,18 @@ export const myProjects = [
     desc: 'My role involved developing and executing comprehensive strategies to build and maintain strong relationships with key clients in the real estate industry.',
     subdesc:
       'I regularly reported on progress toward revenue targets and provided actionable insights and recommendations for continuous improvement. My responsibilities were integral to driving the business forward and ensuring our continued success in the real estate market.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    href: '',
     texture: '/textures/project/prop_certificate.mp4',
-    logo: '/assets/project-logo1.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
     spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'Offer Letter',
-        path: '/assets/Internship/propoffer_letter.jpg',
-      },
-      {
-        id: 2,
-        name: 'Certificate of Internship',
-        path: '/assets/Internship/propoffer_letter.jpg',
-      },
-    ],
+  },
+  {
+    title: 'Internship at Golden Barrel',
+    desc: 'Marketing & Promotions Experience',
+    subdesc:
+      'I served as the Marketing and Promotions Manager, where I planned and executed strategies such as happy hours, social media campaigns, and event promotions. I conducted market research to better understand customer preferences and improve footfall. Additionally, I managed partnerships with influencers and local businesses. ',
+    href: '',
+    texture: '/textures/project/golden_barrel_certificate.mp4',
+    spotlight: '/assets/spotlight1.png',
   }
 ];
 
