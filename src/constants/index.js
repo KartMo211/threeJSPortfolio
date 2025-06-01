@@ -58,7 +58,7 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Internship atProp Mission',
+    title: 'Internship at Prop Mission',
     desc: 'My role involved developing and executing comprehensive strategies to build and maintain strong relationships with key clients in the real estate industry.',
     subdesc:
       'I regularly reported on progress toward revenue targets and provided actionable insights and recommendations for continuous improvement. My responsibilities were integral to driving the business forward and ensuring our continued success in the real estate market.',
